@@ -1,2 +1,2 @@
 # multithreading-script-1
-A basic Python script that demonstrates multithreading in a easy manner. 
+A basic Python script that demonstrates multithreading in a easy manner. The script executes two function calls and one timer function simultaneously, with the timer function being the last function in the code. This happens since the Python interpreter is handling the code through multithreading. The next set of functions that come after a sleep mode, get executed after the last function, that is the timer function.
